@@ -24,7 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.txtInput = New System.Windows.Forms.TextBox()
         Me.btnAddNumber = New System.Windows.Forms.Button()
-        Me.btnSort = New System.Windows.Forms.Button()
+        Me.btnRead = New System.Windows.Forms.Button()
         Me.lstSortedNumbers = New System.Windows.Forms.ListBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnClear = New System.Windows.Forms.Button()
@@ -46,14 +46,14 @@ Partial Class Form1
         Me.btnAddNumber.Text = "Write"
         Me.btnAddNumber.UseVisualStyleBackColor = True
         '
-        'btnSort
+        'btnRead
         '
-        Me.btnSort.Location = New System.Drawing.Point(28, 318)
-        Me.btnSort.Name = "btnSort"
-        Me.btnSort.Size = New System.Drawing.Size(64, 30)
-        Me.btnSort.TabIndex = 2
-        Me.btnSort.Text = "Sort"
-        Me.btnSort.UseVisualStyleBackColor = True
+        Me.btnRead.Location = New System.Drawing.Point(135, 318)
+        Me.btnRead.Name = "btnRead"
+        Me.btnRead.Size = New System.Drawing.Size(64, 30)
+        Me.btnRead.TabIndex = 2
+        Me.btnRead.Text = "Sort"
+        Me.btnRead.UseVisualStyleBackColor = True
         '
         'lstSortedNumbers
         '
@@ -74,22 +74,22 @@ Partial Class Form1
         '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(135, 318)
+        Me.btnClear.Location = New System.Drawing.Point(28, 318)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(64, 30)
         Me.btnClear.TabIndex = 5
-        Me.btnClear.Text = "Clear"
+        Me.btnClear.Text = "Read"
         Me.btnClear.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(336, 385)
+        Me.ClientSize = New System.Drawing.Size(309, 385)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lstSortedNumbers)
-        Me.Controls.Add(Me.btnSort)
+        Me.Controls.Add(Me.btnRead)
         Me.Controls.Add(Me.btnAddNumber)
         Me.Controls.Add(Me.txtInput)
         Me.Name = "Form1"
@@ -101,7 +101,7 @@ Partial Class Form1
 
     Friend WithEvents txtInput As TextBox
     Friend WithEvents btnAddNumber As Button
-    Friend WithEvents btnSort As Button
+    Friend WithEvents btnRead As Button
     Friend WithEvents lstSortedNumbers As ListBox
     Friend WithEvents Label1 As Label
     Friend WithEvents btnClear As Button
